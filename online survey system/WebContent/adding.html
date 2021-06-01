@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="adminwork1.css">
+        <h1 text="centre">Online Survey System</h1>
+        
+    </head>
+    <body>
+        <div class="container">
+  <form action="action_page.php">
+
+    <label for="fname">Your Survey Title</label>
+    <input type="text" id="fname" name="firstname" placeholder="Title of your Survey">
+
+    <label for="Sector">Which Sector does your Survey Related to</label>
+    <select id="Sector" name="Sector">
+      <option value="australia">Education</option>
+      <option value="canada">Business</option>
+      <option value="usa">Social Issues</option>
+      <option value="usa">Other</option>
+    </select>
+
+    <label for="subject">Descrption</label>
+    <textarea id="subject" name="subject" placeholder="Write briefly about your survey.." style="height:200px"></textarea>
+
+    <label for="lname">Google Form Link</label>
+    <input type="text" id="lname" name="lastname" placeholder="your google form link for Survey">
+
+   
+
+    
+
+    <input type="submit" value="Add Survey">
+
+  </form>
+</div>
+    </body>
+</html>
